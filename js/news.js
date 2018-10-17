@@ -9,11 +9,9 @@ $(function(){
         for(let i = 0; i < data.length; i++) {
             content += `<div class="title">${data[i].title}</div> <div class="title">${data[i].text}</div>`;
         }
-        
-        console.log(1, news);
+
+        $(".content-news").text(content);
     });
 
-    $(".content-news").click(function() {
-        console.log(2, news);
-    });
+
 });
