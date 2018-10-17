@@ -10,7 +10,7 @@ $(function(){
             content += `<div class="title">${data[i].title}</div> <div class="title">${data[i].text}</div>`;
         }
 
-        $(".content-news").text(content);
+        $(".content-news").html(content);
     });
 
 
